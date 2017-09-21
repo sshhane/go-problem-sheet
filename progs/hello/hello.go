@@ -1,8 +1,7 @@
 package main
-
-// I/O
+//I/O
 import "fmt"
 
-func main(){
-	fmt.Println("hello, 世界")
+func main() {
+	fmt.Println("Hello world, 世界")
 }

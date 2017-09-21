@@ -9,9 +9,9 @@ func main() {
 	fmt.Println("Fizz Buzz")
 	fmt.Println("=========\n")
 
-	for i := 0; i <= 100; i++ {
+	for i := 0; i <= 100; i++ { //int i, 0 to 100, i+1
 
-
+		// if FizzBuzz, fizz, buzz, number
 		if( i%3 == 0 && i%5 == 0 ) {
 		fmt.Println("FizzBuzz");
 		} else if i%3 == 0 {
@@ -24,4 +24,4 @@ func main() {
 
 	}//for
 
-}
+}//main
