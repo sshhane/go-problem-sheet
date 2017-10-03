@@ -19,10 +19,19 @@ func factorial(n int) uint64 {
          
     }    
     return factVal  /* return from function*/
-}
+}//factorial
+
+// func sum(var factVal int){
+// 	var sum int = 0
+// 	sum = factVal + 1
+// 	return sum
+// }//sum
  
 func main(){    
     fmt.Print("Enter a positive integer between 0 - 50 : ")
-    fmt.Scan(&n)   
+    fmt.Scan(&n)
     fmt.Print("Factorial is: ",factorial(n))
+	// fmt.Print("Factorial is: ",factVal)
+	// fmt.Print("Sum is: ",sum(factVal))
+
 }//main
