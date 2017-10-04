@@ -27,10 +27,12 @@ func main() {
 
     // for guess limit
     for guesses < guessLimit {
+
         //ask user for guess
-        fmt.Println("Guess a number between 1 and 10: ")
+        fmt.Println("Guess a number between 0 and 10: ")
         fmt.Scanf("%d ", &guess)
         guesses++
+
         // if guess is too high or low
         if guess < randNum {
             fmt.Println("Too low!")
@@ -38,11 +40,16 @@ func main() {
             fmt.Println("Too high!")
         } else if guess == randNum {
             fmt.Printf("Correct!, number was: %d\n", randNum)
-            break
-        } else {
-        	fmt.Println("Out of Guesses ):")
+            fmt.Printf("Guesses: %d\n", guesses)
             break
         }
+
+        if guesses >= guessLimit {
+        	fmt.Println("Out of Guesses ):")
+        	fmt.Printf("Number was: %d\n", randNum)
+            break
+        }
+
 	}
 
 }
