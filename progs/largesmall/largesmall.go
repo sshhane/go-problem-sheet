@@ -14,10 +14,15 @@ func minMax(array [10]int) (int, int) {
 	var max int = array[0]
 
 	//iterate over array
-	i := 1
 	for _, v := range array {
-		// do something
-    	i += 4
+
+		// if min or max
+		if min > v {
+			min = v
+		}
+		if max < v {
+			max = v
+		}
 	}
 
     return min, max
