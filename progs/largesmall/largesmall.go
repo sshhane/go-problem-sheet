@@ -5,19 +5,20 @@ import "fmt"
 func main() {
 	fmt.Println("Largest / Smallest")
 
+	// vars
 	size := 10
-	// init array
 	var numbers [10]int
 
-	// ask for nums
 	fmt.Println("Enter 10 numbers:")
 
-	fmt.Println(size)
-	fmt.Println(numbers[0])
-	// fmt.Scanf("%d ", &numbers)
-
 	// pop array
-	// for i:=0; i<=size
+	for i:=0; i<size; i++ {
+
+		// ask for values
+		fmt.Printf("Enter number %d:", i+1)
+		fmt.Scanf("%d ", &numbers[i])
+
+	}
 
 	// print array
 }
