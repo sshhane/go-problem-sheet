@@ -1,19 +1,36 @@
 // HighLow Game
 package main
 
-import "time"
-import "fmt"
-import "math/rand"
+import(
+    "fmt"
+    "math/rand"
+    "time"
+)
+
+// Generate number
+func genRand(max int) int{
+	source := rand.NewSource(time.Now().UnixNano())	//seed for number is current time
+    random := rand.New(source)
+    randNum := random.Intn(max)
+	return randNum
+}
 
 func main() {
 	fmt.Println("High Low, 世界\n")
 
-	//Generate number
-    s1 := rand.NewSource(time.Now().UnixNano())
-    r1 := rand.New(s1)
 
-    fmt.Println("Random num:")
-    fmt.Println(r1.Intn(100))
-    fmt.Println(r1.Intn(100))
+	// vars
+	
+    // populate var w/ rand num
+    randNum := genRand(10)
+
+    // start game
+
+    fmt.Println("Guess a number between 1 & 10")
+
+    fmt.Println(randNum)
+
+    // fmt.Println("Random num:")
+    // fmt.Println(random.Intn(100))	// generate random num
     
 }
