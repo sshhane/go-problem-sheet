@@ -1,18 +1,10 @@
 // largest & smallest in list
+// shane daniels
+
+// https://stackoverflow.com/questions/18566811/loop-over-array-in-go-language
+
 package main
 import "fmt"
-
-// func minMax(numbers [10]int) int, int {
-
-// 	// init min / max
-// 	var min int = numbers[0]
-// 	var max int = numbers[0]
-
-// 	// iterate overf array
-
-
-// 	return min, max
-// }
 
 //function to produce min and max values
 func minMax(array [10]int) (int, int) {
@@ -22,7 +14,12 @@ func minMax(array [10]int) (int, int) {
 	var max int = array[0]
 
 	//iterate over array
-    // for...
+	i := 1
+	for _, v := range array {
+		// do something
+    	i += 4
+	}
+
     return min, max
 }
 
