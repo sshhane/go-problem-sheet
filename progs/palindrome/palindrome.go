@@ -8,6 +8,16 @@ import (
 )
 
 // func isPalindrome
+func isPalindrome(str string) {
+
+	// for len of string
+
+		// if str[i] != str[last]
+			// fmt not pal
+
+		//yes pal
+
+}
 
 func main() {
 	fmt.Println("Palindrome test")
