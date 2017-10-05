@@ -8,16 +8,20 @@ import (
 )
 
 // func isPalindrome
-func isPalindrome(str string) {
+func isPalindrome(str string) string {
 
-	// for len of string
+	m := len(str) / 2	// middle char
+	l := len(str) - 1	// last char
 
-		// if str[i] != str[last]
-			// fmt not pal
+	for i:=0; i<m; i++ {	// iterate until middle char
+		if str[i] != str[l-i] {	// is 'first' char != 'last'
+			return "Not Palindrome"
+		}
+	} // for
+	// is pal
+	return "Is Palindrome"
 
-		//yes pal
-
-}
+} // isPalindrome
 
 func main() {
 	fmt.Println("Palindrome test")
@@ -33,5 +37,5 @@ func main() {
 	myStr = strings.ToLower(myStr)
 
 	// call isPalindrome
-	// fmt.Println(isPalindrome(myStr))
+	fmt.Println(isPalindrome(myStr))
 }
