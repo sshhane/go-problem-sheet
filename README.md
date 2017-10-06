@@ -2,6 +2,10 @@
 Go problems
 Auther: Shane Daniels
 
+# Running the code
+To run the code in this repository, the files must first be compiled.
+The [Go compiler](https://golang.org/dl/) must first be installed on your machine.
+Once that is installed, the code can be compiled and run by following these steps.
 
 1. Clone this repository using [Git](https://github.com/sshhane/go-problem-sheet.git).
 
