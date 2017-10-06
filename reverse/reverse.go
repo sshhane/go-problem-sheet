@@ -1,40 +1,18 @@
-// reverse str
+// reverse a string
+
 package main
+import "fmt"
 
-import (
-	"fmt"
-	"strings"
-)
+func Reverse(s string) string {
 
-// func isPalindrome
-func isPalindrome(str string) string {
+}
 
-	m := len(str) / 2	// middle char
-	l := len(str) - 1	// last char
-
-	for i:=0; i<m; i++ {	// iterate until middle char
-		if str[i] != str[l-i] {	// is 'first' char != 'last'
-			return "Not Palindrome"
-		}
-	} // for
-	// is pal
-	return "Is Palindrome"
-
-} // isPalindrome
-
+//main function 
 func main() {
-	fmt.Println("Palindrome test")
+	//vars
+	var str string
+	//prompt
+	fmt.Println("Enter string: ")
 
-	// vars
-	var myStr string
-
-	// ask for string
-	fmt.Println("Enter string:")
-	fmt.Scanf("%s\n", &myStr)
-
-	// toLowercase
-	myStr = strings.ToLower(myStr)
-
-	// call isPalindrome
-	fmt.Println(isPalindrome(myStr))
+	//output result
 }

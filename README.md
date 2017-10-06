@@ -1,5 +1,4 @@
 # go-problem-sheet #1
-Go problems
 Auther: Shane Daniels
 
 # Running the code
