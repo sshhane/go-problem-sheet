@@ -10,3 +10,4 @@ Auther: Shane Daniels
 	5. High Low
 	6. Largest & Smallest in list
 	7. Palindrome test
+	8. merge & sort
