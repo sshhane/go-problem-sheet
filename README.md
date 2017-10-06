@@ -2,6 +2,37 @@
 Go problems
 Auther: Shane Daniels
 
+
+1. Clone this repository using [Git](https://github.com/sshhane/go-problem-sheet.git).
+
+```bash
+> git clone https://github.com/sshhane/go-problem-sheet.git
+```
+2. Change into the folder.
+```bash
+> cd go-problem-sheet
+```
+3. Change into program folder
+```bash
+> cd hello
+```
+4. Compile each of files with the following command:
+```bash
+> go build
+```
+5. Run the executable produced.
+```bash
+> hello
+Hello, world!
+```
+6. Repeat steps 3 and 4 above, replacing the folder / filenames as appropriate.
+```bash
+> cd ..
+> cd time
+> go build
+> time
+```
+
 # problem-sheet-1
 	1. Kon’nichiwa, Sekai!
 	2. Current time
