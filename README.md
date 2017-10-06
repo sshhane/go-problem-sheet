@@ -25,7 +25,7 @@ Auther: Shane Daniels
 > hello
 Hello, world!
 ```
-6. Repeat steps 3 and 4 above, replacing the folder / filenames as appropriate.
+6. Repeat steps above, replacing the folder / filenames as appropriate.
 ```bash
 > cd ..
 > cd time
